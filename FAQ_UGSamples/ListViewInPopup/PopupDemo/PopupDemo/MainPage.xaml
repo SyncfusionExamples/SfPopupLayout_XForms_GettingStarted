@@ -6,7 +6,7 @@
              xmlns:sfListView="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
              x:Class="PopupDemo.MainPage">
 
-    <!--<ContentPage.BindingContext>
+    <ContentPage.BindingContext>
         <local:ContactsViewModel x:Name="viewModel"/>
     </ContentPage.BindingContext>
 
@@ -64,5 +64,5 @@
                 <Button Text="Click to show popup" Clicked="isOpenButton_Clicked"/>
             </StackLayout>
         </sfPopup:SfPopupLayout.Content>
-    </sfPopup:SfPopupLayout>-->
+    </sfPopup:SfPopupLayout>
 </ContentPage>

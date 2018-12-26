@@ -18,6 +18,7 @@ namespace PopupDemo
 
         private void isOpenButton_Clicked(object sender, EventArgs e)
         {
+            //Displays the popup.
             popupLayout.Show();
         }
     }
@@ -26,6 +27,7 @@ namespace PopupDemo
     {
         public CustomStyle()
         {
+            //Set the desired Image as the close icon of SfPopupLayout.
             this.CloseButtonIcon = ImageSource.FromResource("PopupDemo.Images.RedDown.png");
         }
     }

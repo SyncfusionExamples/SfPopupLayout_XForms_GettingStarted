@@ -18,7 +18,11 @@ namespace PopupDemo
         public MainPage()
         {
             InitializeComponent();
+
+            //Comment the xaml page content and uncomment the below code to get the same output in code behind
+
             //listView = new SfListView() { ItemSpacing = 5 };
+            //// Load the desired template as the ItemTemplate of SfListView.
             //listView.ItemTemplate = new DataTemplate(() =>
             //{
             //    ViewCell viewCell = new ViewCell();
@@ -54,13 +58,19 @@ namespace PopupDemo
             //    return viewCell;
             //});
             //viewModel = new ContactsViewModel();
+            //// Set the ItemsSource for the SfListView for loading the items.
             //listView.ItemsSource = viewModel.Items;
             //listView.SelectionMode = SelectionMode.None;
+            //// Hook the ItemTapped event, to display popup when an item in ListView is tapped.
             //listView.ItemTapped += ListView_ItemTapped;
             //popupLayout = new SfPopupLayout();
+            //// Set the height in which popup should be displayed.
             //popupLayout.PopupView.HeightRequest = 120;
+            //// Set the width in which popup should be displayed.
             //popupLayout.PopupView.WidthRequest = 220;
+            //// You can remove the footer.
             //popupLayout.PopupView.ShowFooter = false;
+            //// Load any view as the Template to show in Popup.
             //popupLayout.PopupView.ContentTemplate = new DataTemplate(() =>
             //{
             //    return new Label()
@@ -77,6 +87,7 @@ namespace PopupDemo
 
         private void ListView_ItemTapped(object sender, Syncfusion.ListView.XForms.ItemTappedEventArgs e)
         {
+            // Popup is opened at the Item tapped event.
             popupLayout.Show();
         }
     }

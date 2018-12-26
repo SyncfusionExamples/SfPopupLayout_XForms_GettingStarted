@@ -34,6 +34,7 @@ namespace PopupDemo
             if (App.Current.MainPage != null)
             {
                 SfPopupLayout popup = new SfPopupLayout();
+                // Popup will be displayed when navigated to this page.
                 popup.Show();
             }
         }

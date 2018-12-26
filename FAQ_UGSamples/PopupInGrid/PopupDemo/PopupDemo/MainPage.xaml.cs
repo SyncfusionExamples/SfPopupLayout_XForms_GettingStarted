@@ -18,13 +18,20 @@ namespace PopupDemo
         public MainPage()
         {
             InitializeComponent();
+
+            //Comment the xaml page content and uncomment the below code to get the same output in code behind
+
             //dataGrid = new SfDataGrid();
             //viewModel = new ViewModel();
+            //// Set the ItemsSource for the SfDataGrid for loading the items.
             //dataGrid.ItemsSource = viewModel.OrdersInfo;
+            //// Hook the GridTapped event, to display popup when an item in Grid is tapped.
             //dataGrid.GridTapped += DataGrid_GridTapped;
             //dataGrid.ColumnSizer = ColumnSizer.Star;
             //popupLayout = new SfPopupLayout();
+            //// Set the HeaderTitle of the popup.
             //popupLayout.PopupView.HeaderTitle = "Popup";
+            //// Load any view as the Template to show in Popup.
             //popupLayout.PopupView.ContentTemplate = new DataTemplate(() =>
             //{
             //    return new Label()
@@ -38,7 +45,7 @@ namespace PopupDemo
             //this.Content = popupLayout;
         }
 
-        private void DataGrid_GridTapped(object sender, Syncfusion.SfDataGrid.XForms.GridTappedEventArgs e)
+        private void DataGrid_GridTapped(object sender, GridTappedEventArgs e)
         {
             // Popup is opened at the Grid tapped event
             popupLayout.Show();
