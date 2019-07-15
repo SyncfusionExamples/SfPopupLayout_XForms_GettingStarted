@@ -3,7 +3,7 @@
 ## About the sample
 This repository contains the sample to get started with the Syncfusion's SfPopupLayout control for Xamarin.Forms.
 
-Create a new BlankApp (Xamarin.Forms.Portable) application in Xamarin Studio or Visual Studio for Xamarin.Forms.
+Create a new BlankApp (Xamarin.Forms.NET Standard) application in Xamarin Studio or Visual Studio for Xamarin.Forms.
 Import the SfPopupLayout control namespace Syncfusion.SfPopupLayout.XForms. The SfPopupLayout can be displayed by the following cases.
 
 ###Displaying popup when the SfPopupLayout is set as root view
