@@ -1,5 +1,4 @@
-﻿using Syncfusion.XForms.UWP.PopupLayout;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -21,7 +20,7 @@ namespace GettingStarted.UWP
         public MainPage()
         {
             this.InitializeComponent();
-            SfPopupLayoutRenderer.Init();
+
             LoadApplication(new GettingStarted.App());
         }
     }

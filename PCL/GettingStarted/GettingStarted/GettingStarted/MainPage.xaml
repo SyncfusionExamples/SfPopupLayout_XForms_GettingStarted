@@ -4,13 +4,15 @@
              xmlns:local="clr-namespace:GettingStarted"
              x:Class="GettingStarted.MainPage"
              xmlns:sfPopup="clr-namespace:Syncfusion.XForms.PopupLayout;assembly=Syncfusion.SfPopupLayout.XForms">
-  <sfPopup:SfPopupLayout x:Name="popupLayout">
-    <sfPopup:SfPopupLayout.Content>
-      <StackLayout x:Name="mainLayout">
-        <Button x:Name="clickToShowPopup" Text="ClickToShowPopup" VerticalOptions="Start"
+
+    <sfPopup:SfPopupLayout x:Name="popupLayout">
+        <sfPopup:SfPopupLayout.Content>
+            <StackLayout x:Name="mainLayout">
+                <Button x:Name="clickToShowPopup" Text="ClickToShowPopup" VerticalOptions="Start"
           HorizontalOptions="FillAndExpand" />
-        <Label x:Name="label" Text="This is SfPopupLayout"/>
-      </StackLayout>
-    </sfPopup:SfPopupLayout.Content>
-  </sfPopup:SfPopupLayout>
+                <Label x:Name="label" Text="This is SfPopupLayout"/>
+            </StackLayout>
+        </sfPopup:SfPopupLayout.Content>
+    </sfPopup:SfPopupLayout>
+
 </ContentPage>

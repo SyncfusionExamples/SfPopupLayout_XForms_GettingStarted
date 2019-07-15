@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
-using UIKit;
 using Syncfusion.XForms.iOS.PopupLayout;
+using UIKit;
 
 namespace GettingStarted.iOS
 {

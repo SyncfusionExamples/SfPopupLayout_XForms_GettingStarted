@@ -9,8 +9,6 @@ namespace GettingStarted
 {
     public partial class MainPage : ContentPage
     {
-        DataTemplate templateView;
-        Label popupContent;
         public MainPage()
         {
             InitializeComponent();
